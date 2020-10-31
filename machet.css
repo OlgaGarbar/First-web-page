@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+header{
+    background-image: url(\Sveatini Moldovi\image\principal.jpeg);
+    background-size: 100%;
+    grid-area: header;
+    height: 400px;
+    margin:0;
+}	  
+	
+header span h1{
+    color: black;	 
+    font-size: 60px;	   
+    text-align: center;	  
+    line-height: 200px;	   
+    margin: 0;	   
+    position: relative;
+    text-align: right;
+    
+    
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.var_nav {
+    position: relative;
+    background: #58aaa9;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}  
+span{
+    padding: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+nav ul h3{
+    position: relative;
+    background: #58aaa9;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+=======
+header{
+    background-image: url(\Sveatini Moldovi\image\principal.jpeg);
+    background-size: 100%;
+    grid-area: header;
+    height: 400px;
+    margin:0;
+}	  
+	
+header span h1{
+    color: black;	 
+    font-size: 60px;	   
+    text-align: center;	  
+    line-height: 200px;	   
+    margin: 0;	   
+    position: relative;
+    text-align: right;
+    
+    
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.var_nav {
+    position: relative;
+    background: #58aaa9;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}  
+span{
+    padding: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+nav ul h3{
+    position: relative;
+    background: #58aaa9;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 5px;
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+>>>>>>> bf80275... First page day2
+}
