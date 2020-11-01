@@ -1,104 +1,118 @@
-<<<<<<< HEAD
+body{
+margin: 0;
+padding: 0;
+display: grid;
+}
+body#homepage{
+    grid-template-columns: 2fr 4fr 1fr;
+    grid-template-rows: 1fr 40px auto 100px;
+    width: 100%;
+    grid-template-areas: "header header header"
+    " aside nav nav"
+    "aside section section"
+   "footer footer footer";
+}
+
 header{
-    background-image: url(\Sveatini Moldovi\image\principal.jpeg);
-    background-size: 100%;
-    grid-area: header;
-    height: 400px;
-    margin:0;
-}	  
-	
-header span h1{
-    color: black;	 
-    font-size: 60px;	   
-    text-align: center;	  
-    line-height: 200px;	   
-    margin: 0;	   
-    position: relative;
-    text-align: right;
-    
-    
-ul {
+    background-image:url(https://i.ytimg.com/vi/ks8HYKxhXNM/maxresdefault.jpg);
+    height: 200px;
     margin: 0;
     padding: 0;
-    list-style-type: none;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.var_nav {
-    position: relative;
-    background: #58aaa9;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-}  
-span{
-    padding: 40px;
-    margin-top: 10px;
-    font-size: 20px;
-}
-nav ul h3{
-    position: relative;
-    background: #58aaa9;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 5px;
-    padding: 0px;
-    margin-top: 20px;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
-
-=======
-header{
-    background-image: url(\Sveatini Moldovi\image\principal.jpeg);
-    background-size: 100%;
     grid-area: header;
-    height: 400px;
-    margin:0;
-}	  
-	
-header span h1{
-    color: black;	 
-    font-size: 60px;	   
-    text-align: center;	  
-    line-height: 200px;	   
-    margin: 0;	   
-    position: relative;
-    text-align: right;
-    
-    
-ul {
+}
+header img{
+    height: 200px;
+   align-self: start;
+   margin-left: 3%;
+   
+}
+header h1{
+        color: #2F72D6;	  
+        font-size: 60px;	
+        text-align: center;	   
+        line-height: 200px;	    
+        margin: 0;
+        position: absolute;	  
+        z-index: 2;  
+        left: 40%;
+        top: 1%;
+        opacity: 0.5;
+}
+ nav{
+    background-color:rgb(253, 251, 249);
+    grid-area: nav;
+   
+}
+nav ul{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr) ;
     margin: 0;
-    padding: 0;
-    list-style-type: none;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    padding :0px;
+    list-style: none;
+    gap: 5px;
 }
-.var_nav {
-    position: relative;
-    background: #58aaa9;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 5px;
-    border-radius: 10px;
-}  
-span{
-    padding: 40px;
-    margin-top: 10px;
-    font-size: 20px;
-}
-nav ul h3{
-    position: relative;
-    background: #58aaa9;
-    width: 250px;
-    height: 50px;
-    margin-bottom: 5px;
-    padding: 0px;
-    margin-top: 20px;
-    font-size: 20px;
+nav ul li a{
+    background: #0caf99;
+    border: 2px solid white ;
+    border-radius: 15px;
+    display: block;
+    height: 40px;
     text-align: center;
-    border-radius: 10px;
-
->>>>>>> bf80275... First page day2
+    line-height: 40px;
+    text-align-last: auto;
+    color: beige;
+    text-decoration: none;
+}
+nav ul li a .active{
+    background: rgb(55, 99, 38);
+}
+nav ul li a:hover{
+    background: rgb(55, 99, 38);
+}
+.meniu {
+    background :beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: aside;
+}  
+.aside_meniu_title{
+    text-transform: uppercase;
+    background: #0caf99;
+    border: 2px solid white ;
+    border-radius: 15px;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-align-last: auto;
+    color: rgb(233, 222, 205);
+    text-decoration: none;
+    margin: 0;
+}
+.aside_meniu_list{
+    list-style: none;
+    padding: 20px;
+}
+.aside_meniu_list a:before{
+    content: none;
+    margin-right: 14px;
+}
+.aside_meniu_list a{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    padding: 6px 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #444;
+    transition: .3s linear;
+}
+.aside_meniu_list a:hover{
+    color: darkgreen;
+}
+section{
+    background-color: blanchedalmond;
+    grid-area: section;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
