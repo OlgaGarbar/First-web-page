@@ -23,7 +23,7 @@ body{
     header img{
         height: 200px;
        align-self: start;
-       margin-left: 3%;
+       margin-left: 1%;
        border: 2px solid #6E8694;
        border-radius: 20px;
        box-shadow: 2px 8px 25px 12px rgba(248,248,255,0.42);
@@ -37,7 +37,7 @@ body{
             margin: 0;
             position: absolute;	  
             z-index: 2;  
-            left: 40%;
+            left:35%;
             top: 1%;
             opacity: 0.3;
             
@@ -49,7 +49,7 @@ body{
         z-index: 2;
         list-style: none;
         top: 1px;
-        right: 5%;
+        right: 2%;
         margin-top: 0mm;
     }
     .tel{
@@ -60,7 +60,7 @@ body{
          z-index: 2;
          list-style: none;
          top: 1%;
-         right: 5%;
+         right: 2%;
 
 
     }
@@ -94,9 +94,15 @@ body{
     }
     nav ul li a:hover{
         background: rgb(55, 99, 38);
+
+    }
+    .left_aside{
+        grid-area: aside;
+        background-image:url(../my_first_site/image/trxtura2.jpg);
+        height: 100%;
     }
     .meniu {
-        background :beige;
+
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         grid-area: aside;
     }  
@@ -110,17 +116,16 @@ body{
         text-align: center;
         line-height: 40px;
         text-align-last: auto;
-        color: rgb(233, 222, 205);
+        color: rgb(16, 12, 8);
         text-decoration: none;
         margin: 0;
+        padding: 10px;
     }
     .aside_meniu_list{
         list-style: none;
-        padding: 20px;
-    }
-    .aside_meniu_list a:before{
-        content: none;
-        margin-right: 14px;
+        padding: 0px;
+        padding-left: 10px;
+        margin-top: 6px;
     }
     .aside_meniu_list a{
         text-decoration: none;
@@ -128,12 +133,31 @@ body{
         display: block;
         padding: 6px 0;
         letter-spacing: 1px;
-        font-weight: 300;
-        color: #444;
-        transition: .3s linear;
+        font-size: 20px;
+        color: #030303;
+         transition: .3s linear;
+         text-align: center;
+         background-color: #f5f5f5;
+         margin-right: 10px;
+        
+    }
+    .aside_meniu_list li:hover{
+        border-bottom: 3px #355347FF solid;
+        border-bottom-left-radius: 10px;
+        border-left:#355347FF 3px solid;
+        
     }
     .aside_meniu_list a:hover{
         color: darkgreen;
+    }
+    .calendar img{
+        height:15vw;
+        margin-left: 100px;
+        opacity: 0.9;
+    
+    }
+    .calendar img:hover{
+        box-shadow: 5px 5px 15px 5px white;
     }
     section{
         background-color: blanchedalmond;
